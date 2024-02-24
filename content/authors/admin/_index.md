@@ -30,8 +30,8 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Interests to show in About widget
 interests:
   - Machine Learning
-  - Madical Solutions
-  - Large Languag Model
+  - Medical Solutions
+  - Large Language Model
 
 # Education to show in About widget
 education:
@@ -51,19 +51,24 @@ education:
 skills:
   - name: Technical
     items:
+      - name: Machine Learning
+        description: ''
+        percent: 75
+        icon: machine
+        icon_pack: fab
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: python
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-line
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        percent: 70
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -96,19 +101,22 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/ukantjadia
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #   icon_pack: fas
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: user-circle # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: hero
+    link: https://ukant.tech
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/ukantjadia
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/ukantjadia
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +128,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a fast learner who loves exploring data and turning it into clear stories. My goal is to grow as a Data Scientist/Machine Learning Engineer in a stable company where I can contribute with my skills and dedication. I'm a hard worker who thrives under pressure, using tools like stats and programming to get results. Plus, I'm great at talking to people to ensure everyone's on the same page. 
 {style="text-align: justify;"}

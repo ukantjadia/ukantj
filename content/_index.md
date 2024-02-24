@@ -6,7 +6,7 @@ type: landing
 
 sections:
   - block: hero
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
       title: Hugo Academic Theme
       image:
@@ -62,27 +62,30 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
+        # - title: CEO
+        #   company: GenCoin
+        #   company_url: ''
+        #   company_logo: org-gc
+        #   location: California
+        #   date_start: '2021-01-01'
+        #   date_end: ''
+        #   description: |2-
+        #       Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+        #       * Analysing
+        #       * Modelling
+        #       * Deploying
+        - title: Flutter Developer, Intern
+          company: Cognus Technology
+          company_url: 'https://www.cognustechnology.com/'
+          company_logo: 'https://www.cognustechnology.com/wp-content/uploads/2023/08/cropped-cropped-final-cognus-logo-300x77-1-240x62.jpg'
+          location: Udaipur
+          date_start: '2023-05-22'
+          date_end: '2022-08-21'
+          description: |2-
+            * Contributed to live project Gradding, and developed dynamic onboarding for the App.
+            * Designed and developed dynamic and responsive Pocket App using **Flutter**,**Dart**,**Figma**.
+            * Conducted research on other applications and made process **25%** more efficient.
     design:
       columns: '2'
   - block: accomplishments
@@ -98,33 +101,35 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: uploads/automate-python.pdf
+          date_end: '2024-01-15'
+          date_start: ''
+          description: A course by **Al Sweigart**(author) itself, following the pages of book Automate the Boring Stuff with Python Programming
+          icon: udemy
+          organization: Udemy
+          organization_url: https://www.udemy.com/
+          title: Automate the Boring Stuff with Python Programming
+          url: 'https://www.udemy.com/share/101W8U3@zbSFiHh8UbclHI5kbznawusN6OeYACMU5rsrNPOZpAxXkpyuD2yvWdZWYkBU04URpw==/'
+
+        - certificate_url: uploads/data-science.pdf
+          date_end: '2023-02-10'
+          date_start: ''
+          description: Analyse and interpret the large data and apply Machine learning 
+          icon: internshala
+          organization: internshala
+          organization_url: https://trainings.internshala.com/
+          title: Data Science
+          url: https://trainings.internshala.com/data-science-beginner-course/?tracking_source=trainings-search-dropdown
+
+        - certificate_url: uploads/docker.pdf
+          date_end: '2024-02-19'
+          date_start: ''
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          icon: ibm
+          organization: IBM
+          organization_url: https://www.ibm.com/training/
+          title: 'Docker Essentials: A Developer Introduction'
+          url: 'https://www.ibm.com/training/badge/docker-essentials-a-developer-introduction'
     design:
       columns: '2'
   - block: collection
@@ -189,41 +194,41 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   - block: tag_cloud
     content:
       title: Popular Topics
@@ -234,40 +239,40 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      # text: |-
+      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: ukant.chippa@gmail.com
+      phone: +91 637 758 1234
+      # appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        street: 25-B Raghunathpura
+        city: Udaipur
+        region: Raj
+        postcode: '313001'
+        country: India
+        country_code: IN
+      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: '24.6062577'
+        longitude: '73.7368159'  
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          link: 'https://twitter.com/ukantjadia'
+        # - icon: skype
+        #   icon_pack: fab
+        #   name: Skype Me
+        #   link: 'skype:echo123?call'
+        # - icon: video
+        #   icon_pack: fas
+        #   name: Zoom Me
+        #   link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
@@ -277,7 +282,7 @@ sections:
           id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
     design:
       columns: '2'
 ---
