@@ -125,7 +125,7 @@ sections:
           date_end: '2023-02-10'
           date_start: ''
           description: Analyse and interpret the large data and apply Machine learning
-          icon: ''
+          icon: datacamp
           organization: internshala
           organization_url: https://trainings.internshala.com/
           title: Data Science
