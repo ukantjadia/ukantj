@@ -78,7 +78,7 @@ sections:
         - title: Flutter Developer, Intern
           company: Cognus Technology
           company_url: 'https://www.cognustechnology.com/'
-          company_logo: 'https://www.cognustechnology.com/wp-content/uploads/2023/08/cropped-cropped-final-cognus-logo-300x77-1-240x62.jpg'
+          company_logo: ''
           location: Udaipur
           date_start: '2023-05-22'
           date_end: '2022-08-21'
