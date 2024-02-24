@@ -101,35 +101,44 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: uploads/automate-python.pdf
-          date_end: '2024-01-15'
-          date_start: ''
-          description: A course by **Al Sweigart**(author) itself, following the pages of book Automate the Boring Stuff with Python Programming
-          icon: ''
-          organization: Udemy
-          organization_url: https://www.udemy.com/
-          title: Automate the Boring Stuff with Python Programming
-          url: 'https://www.udemy.com/share/101W8U3@zbSFiHh8UbclHI5kbznawusN6OeYACMU5rsrNPOZpAxXkpyuD2yvWdZWYkBU04URpw==/'
+        # - certificate_url: uploads/automate-python.pdf
+        #   date_end: '2024-01-15'
+        #   date_start: ''
+        #   description: A course by **Al Sweigart**(author) itself, following the pages of book Automate the Boring Stuff with Python Programming
+        #   icon: ''
+        #   organization: Udemy
+        #   organization_url: https://www.udemy.com/
+        #   title: Automate the Boring Stuff with Python Programming
+        #   url: 'https://www.udemy.com/share/101W8U3@zbSFiHh8UbclHI5kbznawusN6OeYACMU5rsrNPOZpAxXkpyuD2yvWdZWYkBU04URpw==/'
 
-        - certificate_url: uploads/docker.pdf
-          date_end: '2024-02-19'
-          date_start: ''
+        # - certificate_url: uploads/docker.pdf
+        #   date_end: '2024-02-19'
+        #   date_start: ''
+        #   description: ''
+        #   icon: ''
+        #   organization: IBM
+        #   organization_url: https://www.ibm.com/training/
+        #   title: 'Docker Essentials: A Developer Introduction'
+        #   url: 'https://www.ibm.com/training/badge/docker-essentials-a-developer-introduction'
+
+        # - certificate_url: uploads/data-science.pdf
+        #   date_end: '2023-02-10'
+        #   date_start: ''
+        #   description: Analyse and interpret the large data and apply Machine learning 
+        #   icon: ''
+        #   organization: internshala
+        #   organization_url: https://trainings.internshala.com/
+        #   title: Data Science
+        #   url: 'https://trainings.internshala.com/data-science-beginner-course/?tracking_source=trainings-search-dropdown'
+        - certificate_url: https://www.datacamp.com
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
           description: ''
-          icon: ''
-          organization: IBM
-          organization_url: https://www.ibm.com/training/
-          title: 'Docker Essentials: A Developer Introduction'
-          url: 'https://www.ibm.com/training/badge/docker-essentials-a-developer-introduction'
-
-        - certificate_url: uploads/data-science.pdf
-          date_end: '2023-02-10'
-          date_start: ''
-          description: Analyse and interpret the large data and apply Machine learning 
-          icon: ''
-          organization: internshala
-          organization_url: https://trainings.internshala.com/
-          title: Data Science
-          url: 'https://trainings.internshala.com/data-science-beginner-course/?tracking_source=trainings-search-dropdown'
+          icon: datacamp
+          organization: DataCamp
+          organization_url: https://www.datacamp.com
+          title: 'Object-Oriented Programming in R'
+          url: ''
 
     design:
       columns: '2'
