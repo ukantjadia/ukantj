@@ -115,7 +115,7 @@ sections:
           date_end: '2024-02-19'
           date_start: '2024-01-29'
           description: ''
-          icon: ''
+          icon: ibm
           organization: IBM
           organization_url: https://www.ibm.com/training/
           title: 'Docker Essentials: A Developer Introduction'
