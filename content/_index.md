@@ -111,19 +111,19 @@ sections:
         #   title: Automate the Boring Stuff with Python Programming
         #   url: 'https://www.udemy.com/share/101W8U3@zbSFiHh8UbclHI5kbznawusN6OeYACMU5rsrNPOZpAxXkpyuD2yvWdZWYkBU04URpw==/'
 
-        # - certificate_url: uploads/docker.pdf
-        #   date_end: '2024-02-19'
-        #   date_start: ''
-        #   description: ''
-        #   icon: ''
-        #   organization: IBM
-        #   organization_url: https://www.ibm.com/training/
-        #   title: 'Docker Essentials: A Developer Introduction'
-        #   url: 'https://www.ibm.com/training/badge/docker-essentials-a-developer-introduction'
+        - certificate_url: uploads/docker.pdf
+          date_end: '2024-02-19'
+          date_start: '2024-01-29'
+          description: ''
+          icon: ''
+          organization: IBM
+          organization_url: https://www.ibm.com/training/
+          title: 'Docker Essentials: A Developer Introduction'
+          url: 'https://www.ibm.com/training/badge/docker-essentials-a-developer-introduction'
 
         - certificate_url: uploads/data-science.pdf
-          date_end: '2020-12-21'
-          date_start: 
+          date_end: '2023-02-10'
+          date_start: '2023-01-20'
           description: Analyse and interpret the large data and apply Machine learning
           icon: datacamp
           organization: internshala
