@@ -123,7 +123,6 @@ sections:
 
         - certificate_url: uploads/data-science.pdf
           date_end: '2020-12-21'
-          date_start: '2020-12-21'
           description: Analyse and interpret the large data and apply Machine learning
           icon: datacamp
           organization: internshala
