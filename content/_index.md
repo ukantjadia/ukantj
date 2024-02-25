@@ -6,7 +6,7 @@ type: landing
 
 sections:
   - block: hero
-    demo: false # Only display this section in the Hugo Blox Builder demo site
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: Hugo Academic Theme
       image:
@@ -122,7 +122,7 @@ sections:
         #   url: 'https://www.ibm.com/training/badge/docker-essentials-a-developer-introduction'
 
         - certificate_url: uploads/data-science.pdf
-          date_end: '2023-02-10'
+          date_end: '2020-12-21'
           date_start: ''
           description: Analyse and interpret the large data and apply Machine learning
           icon: datacamp
